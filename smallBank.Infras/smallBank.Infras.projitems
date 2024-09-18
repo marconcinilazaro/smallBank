@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>bc1d4ea7-31c5-4957-8a7a-e0469131f9b3</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>smallBank.Infras</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Context\ApplicationDbContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IApplicationDbContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\BankAccountRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\Data\EntityState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\Data\Metadata.cs" />
+  </ItemGroup>
+</Project>

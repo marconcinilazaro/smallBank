@@ -1,0 +1,6 @@
+@smallBank_HostAddress = http://localhost:5266
+
+GET {{smallBank_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

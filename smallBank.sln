@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "smallBank", "smallBank\smallBank.csproj", "{D7D94DD8-D51C-4F34-A480-C7993076613D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "smallBank.Domain", "smallBank.Domain\smallBank.Domain.csproj", "{07BA85CE-A981-41AE-9754-846126BD53DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "smallBank.Service", "smallBank.Service\smallBank.Service.csproj", "{BEB4CE97-59A5-491C-80D3-09B391A91110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "smallBank.DTO", "smallBank.DTO\smallBank.DTO.csproj", "{96E9B1E6-DF36-4BF9-A6C4-9A428F07D8D3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "smallBank.Infra", "smallBank.Infras\smallBank.Infra.shproj", "{BC1D4EA7-31C5-4957-8A7A-E0469131F9B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7D94DD8-D51C-4F34-A480-C7993076613D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D94DD8-D51C-4F34-A480-C7993076613D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D94DD8-D51C-4F34-A480-C7993076613D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D94DD8-D51C-4F34-A480-C7993076613D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BA85CE-A981-41AE-9754-846126BD53DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BA85CE-A981-41AE-9754-846126BD53DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BA85CE-A981-41AE-9754-846126BD53DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BA85CE-A981-41AE-9754-846126BD53DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB4CE97-59A5-491C-80D3-09B391A91110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB4CE97-59A5-491C-80D3-09B391A91110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB4CE97-59A5-491C-80D3-09B391A91110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB4CE97-59A5-491C-80D3-09B391A91110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E9B1E6-DF36-4BF9-A6C4-9A428F07D8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E9B1E6-DF36-4BF9-A6C4-9A428F07D8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E9B1E6-DF36-4BF9-A6C4-9A428F07D8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E9B1E6-DF36-4BF9-A6C4-9A428F07D8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD2800FD-557E-490A-B50F-EDDF199977B4}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		smallBank.Infras\smallBank.Infras.projitems*{bc1d4ea7-31c5-4957-8a7a-e0469131f9b3}*SharedItemsImports = 13
+		smallBank.Infras\smallBank.Infras.projitems*{beb4ce97-59a5-491c-80d3-09b391a91110}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
